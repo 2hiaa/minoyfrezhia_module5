@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@400;500&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+} 
+div{
+    padding:3px;
+    margin: 6px;
+    
+}
+
+.navbar{
+    border:1px rgb(105, 38, 38);
+    border-radius: 15px;
+    background-color: rgb(11, 11, 60);
+}
+
+#twits{
+    background-color: rgb(216, 138, 13);
+
+}
+#twits a{
+    color: rgb(16, 1, 101);
+}
+
+#gih{
+    background-color: rgb(216, 138, 13);
+}
+#gih a{
+    color: rgb(16, 1, 101);
+}
+#insta{
+    background-color: rgb(216, 138, 13);
+}
+#insta a{
+    color: rgb(16, 1, 101);
+}
+
+#yout{
+    background-color: rgb(216, 138, 13);
+}
+#yout a{
+    color: rgb(16, 1, 101);
+}
+#fabe{
+    background-color: rgb(216, 138, 13);
+}
+#fabe a{
+    color: rgb(16, 1, 101);
+}
+.links{
+    border:1px solid rgb(241, 207, 129);
+    display:inline;
+    font-family:'Playfair Display';
+}
+#linksgroup{text-align: center;}
+.links a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    opacity: 0.5;
+    transition:.4s;
+   
+}
+.links a:hover{
+    opacity: 1;
+    transition:.4s;
+    font-size: larger;
+    padding: 10px;
+}
+
+.banner{
+    background-image: url('images\ folder/taylorr.jpeg');
+    background-size:cover;
+    background-position: center;
+    width: 97wv;
+    height: 650px;
+    margin:10px;
+    
+
+}
+
+.bannertext{
+    position: absolute;
+    top:40%;
+    left:8%;
+}
+
+.bannertext h2{
+    text-transform: uppercase;
+    color:rgb(199, 130, 181);
+    font-size: 4em;
+
+}
+.bannertext h2 span{
+    color:rgb(255, 242, 253)
+}
+
+.bannertext p{
+    color:white;
+    font-family:'Segoue UI'
+}
+
+.banner a{
+    text-decoration:none;
+    display: inline-block;
+    padding: 1em;
+    background-color:rgb(199, 130, 181);
+    margin-top: 0.5em;
+    font-family:'Segoue UI';
+    color:white;
+}
